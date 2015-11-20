@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE2C4201BFEF94F00F95E1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE2C41F1BFEF94F00F95E1A /* main.m */; };
+		FAE2C4231BFEF94F00F95E1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE2C4221BFEF94F00F95E1A /* AppDelegate.m */; };
+		FAE2C4261BFEF94F00F95E1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE2C4251BFEF94F00F95E1A /* ViewController.m */; };
+		FAE2C4291BFEF94F00F95E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE2C4271BFEF94F00F95E1A /* Main.storyboard */; };
+		FAE2C42B1BFEF94F00F95E1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE2C42A1BFEF94F00F95E1A /* Images.xcassets */; };
+		FAE2C42E1BFEF95000F95E1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE2C42C1BFEF94F00F95E1A /* LaunchScreen.xib */; };
+		FAE2C43A1BFEF95000F95E1A /* SSBackgroundModeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE2C4391BFEF95000F95E1A /* SSBackgroundModeTests.m */; };
+		FAE2C4441BFEFF1B00F95E1A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE2C4431BFEFF1B00F95E1A /* AVFoundation.framework */; };
+		FAE2C4461BFF01CD00F95E1A /* 周杰伦 - 青花瓷.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAE2C4451BFF01CD00F95E1A /* 周杰伦 - 青花瓷.mp3 */; };
+		FAE2C4481BFF02E100F95E1A /* 薛之谦 - 演员.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAE2C4471BFF02E100F95E1A /* 薛之谦 - 演员.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE2C4341BFEF95000F95E1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE2C4121BFEF94F00F95E1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE2C4191BFEF94F00F95E1A;
+			remoteInfo = SSBackgroundMode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAE2C41A1BFEF94F00F95E1A /* SSBackgroundMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSBackgroundMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE2C41E1BFEF94F00F95E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE2C41F1BFEF94F00F95E1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAE2C4211BFEF94F00F95E1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAE2C4221BFEF94F00F95E1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAE2C4241BFEF94F00F95E1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAE2C4251BFEF94F00F95E1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAE2C4281BFEF94F00F95E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAE2C42A1BFEF94F00F95E1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAE2C42D1BFEF94F00F95E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAE2C4331BFEF95000F95E1A /* SSBackgroundModeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSBackgroundModeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE2C4381BFEF95000F95E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE2C4391BFEF95000F95E1A /* SSBackgroundModeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSBackgroundModeTests.m; sourceTree = "<group>"; };
+		FAE2C4431BFEFF1B00F95E1A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FAE2C4451BFF01CD00F95E1A /* 周杰伦 - 青花瓷.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "周杰伦 - 青花瓷.mp3"; sourceTree = "<group>"; };
+		FAE2C4471BFF02E100F95E1A /* 薛之谦 - 演员.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "薛之谦 - 演员.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE2C4171BFEF94F00F95E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE2C4441BFEFF1B00F95E1A /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE2C4301BFEF95000F95E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE2C4111BFEF94F00F95E1A = {
+			isa = PBXGroup;
+			children = (
+				FAE2C4431BFEFF1B00F95E1A /* AVFoundation.framework */,
+				FAE2C41C1BFEF94F00F95E1A /* SSBackgroundMode */,
+				FAE2C4361BFEF95000F95E1A /* SSBackgroundModeTests */,
+				FAE2C41B1BFEF94F00F95E1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE2C41B1BFEF94F00F95E1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE2C41A1BFEF94F00F95E1A /* SSBackgroundMode.app */,
+				FAE2C4331BFEF95000F95E1A /* SSBackgroundModeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE2C41C1BFEF94F00F95E1A /* SSBackgroundMode */ = {
+			isa = PBXGroup;
+			children = (
+				FAE2C4471BFF02E100F95E1A /* 薛之谦 - 演员.mp3 */,
+				FAE2C4451BFF01CD00F95E1A /* 周杰伦 - 青花瓷.mp3 */,
+				FAE2C4211BFEF94F00F95E1A /* AppDelegate.h */,
+				FAE2C4221BFEF94F00F95E1A /* AppDelegate.m */,
+				FAE2C4241BFEF94F00F95E1A /* ViewController.h */,
+				FAE2C4251BFEF94F00F95E1A /* ViewController.m */,
+				FAE2C4271BFEF94F00F95E1A /* Main.storyboard */,
+				FAE2C42A1BFEF94F00F95E1A /* Images.xcassets */,
+				FAE2C42C1BFEF94F00F95E1A /* LaunchScreen.xib */,
+				FAE2C41D1BFEF94F00F95E1A /* Supporting Files */,
+			);
+			path = SSBackgroundMode;
+			sourceTree = "<group>";
+		};
+		FAE2C41D1BFEF94F00F95E1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE2C41E1BFEF94F00F95E1A /* Info.plist */,
+				FAE2C41F1BFEF94F00F95E1A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAE2C4361BFEF95000F95E1A /* SSBackgroundModeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE2C4391BFEF95000F95E1A /* SSBackgroundModeTests.m */,
+				FAE2C4371BFEF95000F95E1A /* Supporting Files */,
+			);
+			path = SSBackgroundModeTests;
+			sourceTree = "<group>";
+		};
+		FAE2C4371BFEF95000F95E1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE2C4381BFEF95000F95E1A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE2C4191BFEF94F00F95E1A /* SSBackgroundMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE2C43D1BFEF95000F95E1A /* Build configuration list for PBXNativeTarget "SSBackgroundMode" */;
+			buildPhases = (
+				FAE2C4161BFEF94F00F95E1A /* Sources */,
+				FAE2C4171BFEF94F00F95E1A /* Frameworks */,
+				FAE2C4181BFEF94F00F95E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSBackgroundMode;
+			productName = SSBackgroundMode;
+			productReference = FAE2C41A1BFEF94F00F95E1A /* SSBackgroundMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAE2C4321BFEF95000F95E1A /* SSBackgroundModeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE2C4401BFEF95000F95E1A /* Build configuration list for PBXNativeTarget "SSBackgroundModeTests" */;
+			buildPhases = (
+				FAE2C42F1BFEF95000F95E1A /* Sources */,
+				FAE2C4301BFEF95000F95E1A /* Frameworks */,
+				FAE2C4311BFEF95000F95E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE2C4351BFEF95000F95E1A /* PBXTargetDependency */,
+			);
+			name = SSBackgroundModeTests;
+			productName = SSBackgroundModeTests;
+			productReference = FAE2C4331BFEF95000F95E1A /* SSBackgroundModeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE2C4121BFEF94F00F95E1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = treebear;
+				TargetAttributes = {
+					FAE2C4191BFEF94F00F95E1A = {
+						CreatedOnToolsVersion = 6.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					FAE2C4321BFEF95000F95E1A = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = FAE2C4191BFEF94F00F95E1A;
+					};
+				};
+			};
+			buildConfigurationList = FAE2C4151BFEF94F00F95E1A /* Build configuration list for PBXProject "SSBackgroundMode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE2C4111BFEF94F00F95E1A;
+			productRefGroup = FAE2C41B1BFEF94F00F95E1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE2C4191BFEF94F00F95E1A /* SSBackgroundMode */,
+				FAE2C4321BFEF95000F95E1A /* SSBackgroundModeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE2C4181BFEF94F00F95E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE2C4461BFF01CD00F95E1A /* 周杰伦 - 青花瓷.mp3 in Resources */,
+				FAE2C4291BFEF94F00F95E1A /* Main.storyboard in Resources */,
+				FAE2C42E1BFEF95000F95E1A /* LaunchScreen.xib in Resources */,
+				FAE2C4481BFF02E100F95E1A /* 薛之谦 - 演员.mp3 in Resources */,
+				FAE2C42B1BFEF94F00F95E1A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE2C4311BFEF95000F95E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE2C4161BFEF94F00F95E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE2C4261BFEF94F00F95E1A /* ViewController.m in Sources */,
+				FAE2C4231BFEF94F00F95E1A /* AppDelegate.m in Sources */,
+				FAE2C4201BFEF94F00F95E1A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE2C42F1BFEF95000F95E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE2C43A1BFEF95000F95E1A /* SSBackgroundModeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAE2C4351BFEF95000F95E1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE2C4191BFEF94F00F95E1A /* SSBackgroundMode */;
+			targetProxy = FAE2C4341BFEF95000F95E1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAE2C4271BFEF94F00F95E1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE2C4281BFEF94F00F95E1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAE2C42C1BFEF94F00F95E1A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE2C42D1BFEF94F00F95E1A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAE2C43B1BFEF95000F95E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAE2C43C1BFEF95000F95E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE2C43E1BFEF95000F95E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSBackgroundMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "60f3cd9a-8330-479c-991f-136725e0148d";
+			};
+			name = Debug;
+		};
+		FAE2C43F1BFEF95000F95E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSBackgroundMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "60f3cd9a-8330-479c-991f-136725e0148d";
+			};
+			name = Release;
+		};
+		FAE2C4411BFEF95000F95E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SSBackgroundModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSBackgroundMode.app/SSBackgroundMode";
+			};
+			name = Debug;
+		};
+		FAE2C4421BFEF95000F95E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SSBackgroundModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSBackgroundMode.app/SSBackgroundMode";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE2C4151BFEF94F00F95E1A /* Build configuration list for PBXProject "SSBackgroundMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE2C43B1BFEF95000F95E1A /* Debug */,
+				FAE2C43C1BFEF95000F95E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE2C43D1BFEF95000F95E1A /* Build configuration list for PBXNativeTarget "SSBackgroundMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE2C43E1BFEF95000F95E1A /* Debug */,
+				FAE2C43F1BFEF95000F95E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAE2C4401BFEF95000F95E1A /* Build configuration list for PBXNativeTarget "SSBackgroundModeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE2C4411BFEF95000F95E1A /* Debug */,
+				FAE2C4421BFEF95000F95E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE2C4121BFEF94F00F95E1A /* Project object */;
+}
