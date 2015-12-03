@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController () <NSURLSessionDelegate>
 {
     AVQueuePlayer *player;
     NSDate *time;
@@ -22,6 +22,9 @@
     [super viewDidLoad];
     [self audioSession];
     [self updateUI];
+    
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(receiveBackgroundTask) name:@"receiveBackgroundTask" object:nil];
+    [NSTimer scheduledTimerWithTimeInterval:35.0f target:self selector:@selector(testForBackgroundRequest) userInfo:nil repeats:NO];
 }
 
 //执行后台任务
@@ -92,6 +95,51 @@
         NSLog(@" currentItem : %@ ",currentItem);
     }
 }
+
+
+// background fetch
+- (void)testForBackgroundRequest{
+    NSLog(@" send background request!!! ");
+    NSURL *url = [NSURL URLWithString:@"http://s1.music.126.net/download/osx/NeteaseMusic_1.3.1_366_web.dmg"];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    NSURLSession *session = [self backgroundSession];
+    NSURLSessionDownloadTask *downloadTask = [session downloadTaskWithRequest:request completionHandler:^(NSURL *location, NSURLResponse *response, NSError *error) {
+        NSLog(@" download success  error: %@ ",error);
+        NSString *documentsPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
+        NSURL *documentsURL = [NSURL fileURLWithPath:documentsPath];
+        NSURL *newFilePath = [documentsURL URLByAppendingPathComponent:[[response URL] lastPathComponent]];
+        [[NSFileManager defaultManager] copyItemAtURL:location toURL:newFilePath error:nil];
+    }];
+    [downloadTask resume];
+    
+}
+- (void)receiveBackgroundTask{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"通知" message:@"接受到后台请求" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [alert show];
+}
+
+
+// iOS7 NSURLSession后台请求
+- (NSURLSession *)backgroundSession{
+    static NSURLSession *session = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+        session = [NSURLSession sessionWithConfiguration:configuration delegate:self delegateQueue:nil];
+    });
+    return session;
+}
+- (void)URLSession:(NSURLSession *)session downloadTask:(NSURLSessionDownloadTask *)downloadTask
+   didFinishDownloadingToURL:(NSURL *)location{
+    
+}
+- (void)URLSession:(NSURLSession *)session task:(NSURLSessionTask *)task
+didCompleteWithError:(NSError *)error{
+    
+}
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
