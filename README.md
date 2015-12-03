@@ -5,3 +5,4 @@
 * Background fetch  后台请求
 * Location updates   更新定位
 * Voice over IP   
+* Remote notification  带特定键值的推送通知
